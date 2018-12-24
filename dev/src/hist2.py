@@ -26,7 +26,7 @@ def main(img, img2):
         for j in range(width):
             sub = abs(int(target_img[i, j]) - int(compare_img[i, j]))
             if (sub > THRESHOLD):
-                sim += sub
+                sim += 1
                 dist_img[i, j] = [0, sub, 0]
             else:
                 gray = target_img[i, j]
