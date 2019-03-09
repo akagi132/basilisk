@@ -4,8 +4,8 @@ from email.utils import formatdate
 import datetime
 
 FROM_ADDRESS = 'basilisk.system@gmail.com'
-MY_PASSWORD = ''
-TO_ADDRESS = ''
+MY_PASSWORD = 'basilisk_system10'
+TO_ADDRESS = 'akagi13213a@gmail.com'
 BODY = 'harp move.'
 
 def create_message(from_addr, to_addr, body):
