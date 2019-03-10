@@ -73,7 +73,6 @@ def getSimilarity(target_img, compare_img, threshold, save_image=True):
                 sim += sub
                 dist_img[i, j] = [0, 255, 0]
 
-    cv2.imwrite('dist.png', dist_img)
     return (sim_n, sim)
 
 def main(cam, interval, threshold):
